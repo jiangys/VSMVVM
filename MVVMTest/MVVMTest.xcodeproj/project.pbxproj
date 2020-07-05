@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE16A4D4246567A700F3A5ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE16A4D3246567A700F3A5ED /* AppDelegate.m */; };
+		AE16A4DA246567A700F3A5ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE16A4D9246567A700F3A5ED /* ViewController.m */; };
+		AE16A4DF246567A800F3A5ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE16A4DE246567A800F3A5ED /* Assets.xcassets */; };
+		AE16A4E2246567A800F3A5ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE16A4E0246567A800F3A5ED /* LaunchScreen.storyboard */; };
+		AE16A4E5246567A800F3A5ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE16A4E4246567A800F3A5ED /* main.m */; };
+		AE16A4F324657C8B00F3A5ED /* GoodsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE16A4F224657C8B00F3A5ED /* GoodsListViewController.m */; };
+		AE16A4F624657CA900F3A5ED /* GoodsListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE16A4F524657CA900F3A5ED /* GoodsListViewModel.m */; };
+		AE5362E5249B3C6600789521 /* MiddleCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5362E4249B3C6600789521 /* MiddleCellModel.m */; };
+		AE5362E8249B3C9C00789521 /* MiddleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5362E7249B3C9C00789521 /* MiddleCell.m */; };
+		AE93C74324664D4F00F9EC96 /* GoodsListInputParams.m in Sources */ = {isa = PBXBuildFile; fileRef = AE93C74224664D4F00F9EC96 /* GoodsListInputParams.m */; };
+		AE93C7462466523D00F9EC96 /* GoodsListCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE93C7452466523D00F9EC96 /* GoodsListCellModel.m */; };
+		AE93C7492466527600F9EC96 /* GoodsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE93C7482466527600F9EC96 /* GoodsListTableViewCell.m */; };
+		AECFC6E824B1D19C00360034 /* VSMVVMCollectionViewSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AECFC6DE24B1D19C00360034 /* VSMVVMCollectionViewSectionModel.m */; };
+		AECFC6E924B1D19C00360034 /* VSMVVMCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AECFC6E424B1D19C00360034 /* VSMVVMCollectionViewController.m */; };
+		AECFC6EA24B1D19C00360034 /* VSMVVMCollectionViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AECFC6E524B1D19C00360034 /* VSMVVMCollectionViewCellModel.m */; };
+		AECFC6EB24B1D19C00360034 /* VSMVVMCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AECFC6E624B1D19C00360034 /* VSMVVMCollectionViewCell.m */; };
+		AECFC6EC24B1D19C00360034 /* VSMVVMCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AECFC6E724B1D19C00360034 /* VSMVVMCollectionViewModel.m */; };
+		AED78B952489E39300427CB2 /* VSDemoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED78B942489E39300427CB2 /* VSDemoCollectionViewController.m */; };
+		AED78B9F248A265700427CB2 /* VSDemoCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AED78B9E248A265700427CB2 /* VSDemoCollectionViewModel.m */; };
+		AED78BA2248A26BF00427CB2 /* VSDemoCollectionItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AED78BA1248A26BF00427CB2 /* VSDemoCollectionItemCell.m */; };
+		AED78BA5248A26D200427CB2 /* VSDemoCollectionItemCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AED78BA4248A26D200427CB2 /* VSDemoCollectionItemCellModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE16A4CF246567A700F3A5ED /* MVVMTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE16A4D2246567A700F3A5ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE16A4D3246567A700F3A5ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE16A4D8246567A700F3A5ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; wrapsLines = 1; };
+		AE16A4D9246567A700F3A5ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE16A4DE246567A800F3A5ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE16A4E1246567A800F3A5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE16A4E3246567A800F3A5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE16A4E4246567A800F3A5ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE16A4F124657C8B00F3A5ED /* GoodsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsListViewController.h; sourceTree = "<group>"; };
+		AE16A4F224657C8B00F3A5ED /* GoodsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsListViewController.m; sourceTree = "<group>"; };
+		AE16A4F424657CA900F3A5ED /* GoodsListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsListViewModel.h; sourceTree = "<group>"; };
+		AE16A4F524657CA900F3A5ED /* GoodsListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsListViewModel.m; sourceTree = "<group>"; };
+		AE5362E0249A4FD200789521 /* VSTableCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSTableCellProtocol.h; sourceTree = "<group>"; };
+		AE5362E1249A507900789521 /* VSTableCellModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSTableCellModelProtocol.h; sourceTree = "<group>"; };
+		AE5362E3249B3C6600789521 /* MiddleCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiddleCellModel.h; sourceTree = "<group>"; };
+		AE5362E4249B3C6600789521 /* MiddleCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiddleCellModel.m; sourceTree = "<group>"; };
+		AE5362E6249B3C9C00789521 /* MiddleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiddleCell.h; sourceTree = "<group>"; };
+		AE5362E7249B3C9C00789521 /* MiddleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiddleCell.m; sourceTree = "<group>"; };
+		AE93C74124664D4F00F9EC96 /* GoodsListInputParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsListInputParams.h; sourceTree = "<group>"; };
+		AE93C74224664D4F00F9EC96 /* GoodsListInputParams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsListInputParams.m; sourceTree = "<group>"; };
+		AE93C7442466523D00F9EC96 /* GoodsListCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsListCellModel.h; sourceTree = "<group>"; };
+		AE93C7452466523D00F9EC96 /* GoodsListCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsListCellModel.m; sourceTree = "<group>"; };
+		AE93C7472466527600F9EC96 /* GoodsListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsListTableViewCell.h; sourceTree = "<group>"; };
+		AE93C7482466527600F9EC96 /* GoodsListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsListTableViewCell.m; sourceTree = "<group>"; };
+		AECFC6DE24B1D19C00360034 /* VSMVVMCollectionViewSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMVVMCollectionViewSectionModel.m; sourceTree = "<group>"; };
+		AECFC6DF24B1D19C00360034 /* VSMVVMCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMVVMCollectionViewCell.h; sourceTree = "<group>"; };
+		AECFC6E024B1D19C00360034 /* VSMVVMCollectionViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMVVMCollectionViewCellModel.h; sourceTree = "<group>"; };
+		AECFC6E124B1D19C00360034 /* VSMVVMCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMVVMCollectionViewController.h; sourceTree = "<group>"; };
+		AECFC6E224B1D19C00360034 /* VSMVVMCollectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMVVMCollectionViewModel.h; sourceTree = "<group>"; };
+		AECFC6E324B1D19C00360034 /* VSMVVMCollectionViewSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMVVMCollectionViewSectionModel.h; sourceTree = "<group>"; };
+		AECFC6E424B1D19C00360034 /* VSMVVMCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMVVMCollectionViewController.m; sourceTree = "<group>"; };
+		AECFC6E524B1D19C00360034 /* VSMVVMCollectionViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMVVMCollectionViewCellModel.m; sourceTree = "<group>"; };
+		AECFC6E624B1D19C00360034 /* VSMVVMCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMVVMCollectionViewCell.m; sourceTree = "<group>"; };
+		AECFC6E724B1D19C00360034 /* VSMVVMCollectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMVVMCollectionViewModel.m; sourceTree = "<group>"; };
+		AED78B932489E39300427CB2 /* VSDemoCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSDemoCollectionViewController.h; sourceTree = "<group>"; };
+		AED78B942489E39300427CB2 /* VSDemoCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSDemoCollectionViewController.m; sourceTree = "<group>"; };
+		AED78B9D248A265700427CB2 /* VSDemoCollectionViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSDemoCollectionViewModel.h; sourceTree = "<group>"; };
+		AED78B9E248A265700427CB2 /* VSDemoCollectionViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSDemoCollectionViewModel.m; sourceTree = "<group>"; };
+		AED78BA0248A26BF00427CB2 /* VSDemoCollectionItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSDemoCollectionItemCell.h; sourceTree = "<group>"; };
+		AED78BA1248A26BF00427CB2 /* VSDemoCollectionItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSDemoCollectionItemCell.m; sourceTree = "<group>"; };
+		AED78BA3248A26D200427CB2 /* VSDemoCollectionItemCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSDemoCollectionItemCellModel.h; sourceTree = "<group>"; };
+		AED78BA4248A26D200427CB2 /* VSDemoCollectionItemCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSDemoCollectionItemCellModel.m; sourceTree = "<group>"; };
+		AED78BA7248A37F800427CB2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE16A4CC246567A700F3A5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE16A4C6246567A700F3A5ED = {
+			isa = PBXGroup;
+			children = (
+				AE16A4D1246567A700F3A5ED /* MVVMTest */,
+				AE16A4D0246567A700F3A5ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE16A4D0246567A700F3A5ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE16A4CF246567A700F3A5ED /* MVVMTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE16A4D1246567A700F3A5ED /* MVVMTest */ = {
+			isa = PBXGroup;
+			children = (
+				AED78B7B24891D2600427CB2 /* CollectionView */,
+				AED78B7A24891CF900427CB2 /* TableView */,
+				AE16A4D2246567A700F3A5ED /* AppDelegate.h */,
+				AE16A4D3246567A700F3A5ED /* AppDelegate.m */,
+				AE16A4D8246567A700F3A5ED /* ViewController.h */,
+				AE16A4D9246567A700F3A5ED /* ViewController.m */,
+				AE16A4DE246567A800F3A5ED /* Assets.xcassets */,
+				AE16A4E0246567A800F3A5ED /* LaunchScreen.storyboard */,
+				AE16A4E3246567A800F3A5ED /* Info.plist */,
+				AE16A4E4246567A800F3A5ED /* main.m */,
+				AED78BA7248A37F800427CB2 /* PrefixHeader.pch */,
+			);
+			path = MVVMTest;
+			sourceTree = "<group>";
+		};
+		AE5362E2249B381300789521 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				AE5362E0249A4FD200789521 /* VSTableCellProtocol.h */,
+				AE5362E1249A507900789521 /* VSTableCellModelProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		AE93C74A24667ECC00F9EC96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE93C74124664D4F00F9EC96 /* GoodsListInputParams.h */,
+				AE93C74224664D4F00F9EC96 /* GoodsListInputParams.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE93C74B24667EE400F9EC96 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AE93C7442466523D00F9EC96 /* GoodsListCellModel.h */,
+				AE93C7452466523D00F9EC96 /* GoodsListCellModel.m */,
+				AE93C7472466527600F9EC96 /* GoodsListTableViewCell.h */,
+				AE93C7482466527600F9EC96 /* GoodsListTableViewCell.m */,
+				AE5362E3249B3C6600789521 /* MiddleCellModel.h */,
+				AE5362E4249B3C6600789521 /* MiddleCellModel.m */,
+				AE5362E6249B3C9C00789521 /* MiddleCell.h */,
+				AE5362E7249B3C9C00789521 /* MiddleCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AE93C74D24667F0600F9EC96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE16A4F124657C8B00F3A5ED /* GoodsListViewController.h */,
+				AE16A4F224657C8B00F3A5ED /* GoodsListViewController.m */,
+				AE16A4F424657CA900F3A5ED /* GoodsListViewModel.h */,
+				AE16A4F524657CA900F3A5ED /* GoodsListViewModel.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AECFC6DD24B1D19C00360034 /* MVVMBase */ = {
+			isa = PBXGroup;
+			children = (
+				AECFC6DE24B1D19C00360034 /* VSMVVMCollectionViewSectionModel.m */,
+				AECFC6DF24B1D19C00360034 /* VSMVVMCollectionViewCell.h */,
+				AECFC6E024B1D19C00360034 /* VSMVVMCollectionViewCellModel.h */,
+				AECFC6E124B1D19C00360034 /* VSMVVMCollectionViewController.h */,
+				AECFC6E224B1D19C00360034 /* VSMVVMCollectionViewModel.h */,
+				AECFC6E324B1D19C00360034 /* VSMVVMCollectionViewSectionModel.h */,
+				AECFC6E424B1D19C00360034 /* VSMVVMCollectionViewController.m */,
+				AECFC6E524B1D19C00360034 /* VSMVVMCollectionViewCellModel.m */,
+				AECFC6E624B1D19C00360034 /* VSMVVMCollectionViewCell.m */,
+				AECFC6E724B1D19C00360034 /* VSMVVMCollectionViewModel.m */,
+			);
+			name = MVVMBase;
+			path = ../../../MVVMBase;
+			sourceTree = "<group>";
+		};
+		AED78B7A24891CF900427CB2 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				AE5362E2249B381300789521 /* Protocol */,
+				AE93C74D24667F0600F9EC96 /* Controller */,
+				AE93C74B24667EE400F9EC96 /* Cell */,
+				AE93C74A24667ECC00F9EC96 /* Model */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		AED78B7B24891D2600427CB2 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				AECFC6DD24B1D19C00360034 /* MVVMBase */,
+				AED78B902489E28D00427CB2 /* Demo */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		AED78B902489E28D00427CB2 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AED78B962489E57200427CB2 /* Model */,
+				AED78B912489E2BC00427CB2 /* Cell */,
+				AED78B922489E2F500427CB2 /* ViewController */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		AED78B912489E2BC00427CB2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AED78BA0248A26BF00427CB2 /* VSDemoCollectionItemCell.h */,
+				AED78BA1248A26BF00427CB2 /* VSDemoCollectionItemCell.m */,
+				AED78BA3248A26D200427CB2 /* VSDemoCollectionItemCellModel.h */,
+				AED78BA4248A26D200427CB2 /* VSDemoCollectionItemCellModel.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AED78B922489E2F500427CB2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AED78B9D248A265700427CB2 /* VSDemoCollectionViewModel.h */,
+				AED78B9E248A265700427CB2 /* VSDemoCollectionViewModel.m */,
+				AED78B932489E39300427CB2 /* VSDemoCollectionViewController.h */,
+				AED78B942489E39300427CB2 /* VSDemoCollectionViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AED78B962489E57200427CB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE16A4CE246567A700F3A5ED /* MVVMTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE16A4E8246567A800F3A5ED /* Build configuration list for PBXNativeTarget "MVVMTest" */;
+			buildPhases = (
+				AE16A4CB246567A700F3A5ED /* Sources */,
+				AE16A4CC246567A700F3A5ED /* Frameworks */,
+				AE16A4CD246567A700F3A5ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVVMTest;
+			productName = MVVMTest;
+			productReference = AE16A4CF246567A700F3A5ED /* MVVMTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE16A4C7246567A700F3A5ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = jiangys;
+				TargetAttributes = {
+					AE16A4CE246567A700F3A5ED = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AE16A4CA246567A700F3A5ED /* Build configuration list for PBXProject "MVVMTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE16A4C6246567A700F3A5ED;
+			productRefGroup = AE16A4D0246567A700F3A5ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE16A4CE246567A700F3A5ED /* MVVMTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE16A4CD246567A700F3A5ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE16A4E2246567A800F3A5ED /* LaunchScreen.storyboard in Resources */,
+				AE16A4DF246567A800F3A5ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE16A4CB246567A700F3A5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5362E5249B3C6600789521 /* MiddleCellModel.m in Sources */,
+				AE16A4DA246567A700F3A5ED /* ViewController.m in Sources */,
+				AED78BA5248A26D200427CB2 /* VSDemoCollectionItemCellModel.m in Sources */,
+				AECFC6EC24B1D19C00360034 /* VSMVVMCollectionViewModel.m in Sources */,
+				AECFC6EB24B1D19C00360034 /* VSMVVMCollectionViewCell.m in Sources */,
+				AED78B952489E39300427CB2 /* VSDemoCollectionViewController.m in Sources */,
+				AE93C7462466523D00F9EC96 /* GoodsListCellModel.m in Sources */,
+				AE93C74324664D4F00F9EC96 /* GoodsListInputParams.m in Sources */,
+				AECFC6E824B1D19C00360034 /* VSMVVMCollectionViewSectionModel.m in Sources */,
+				AE16A4D4246567A700F3A5ED /* AppDelegate.m in Sources */,
+				AE16A4F624657CA900F3A5ED /* GoodsListViewModel.m in Sources */,
+				AE16A4E5246567A800F3A5ED /* main.m in Sources */,
+				AECFC6E924B1D19C00360034 /* VSMVVMCollectionViewController.m in Sources */,
+				AE5362E8249B3C9C00789521 /* MiddleCell.m in Sources */,
+				AE93C7492466527600F9EC96 /* GoodsListTableViewCell.m in Sources */,
+				AED78B9F248A265700427CB2 /* VSDemoCollectionViewModel.m in Sources */,
+				AED78BA2248A26BF00427CB2 /* VSDemoCollectionItemCell.m in Sources */,
+				AECFC6EA24B1D19C00360034 /* VSMVVMCollectionViewCellModel.m in Sources */,
+				AE16A4F324657C8B00F3A5ED /* GoodsListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE16A4E0246567A800F3A5ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE16A4E1246567A800F3A5ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE16A4E6246567A800F3A5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE16A4E7246567A800F3A5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE16A4E9246567A800F3A5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = MVVMTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangys.MVVMTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AE16A4EA246567A800F3A5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = MVVMTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangys.MVVMTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE16A4CA246567A700F3A5ED /* Build configuration list for PBXProject "MVVMTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE16A4E6246567A800F3A5ED /* Debug */,
+				AE16A4E7246567A800F3A5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE16A4E8246567A800F3A5ED /* Build configuration list for PBXNativeTarget "MVVMTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE16A4E9246567A800F3A5ED /* Debug */,
+				AE16A4EA246567A800F3A5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE16A4C7246567A700F3A5ED /* Project object */;
+}
