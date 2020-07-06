@@ -40,12 +40,12 @@ Demo有两种处理方式，一是通过继承基类，重写基类的方法来�
 
 # 使用方法
 直接继承MVVMBase使用
-1、新建一个控制器VSDemoCollectionViewController，继承于VSMVVMCollectionViewController
-2、新建一个该控制器的ViewModel（VSDemoCollectionViewModel），继承于VSMVVMCollectionViewModel，负责管理所有的CellViewModel
-3、新建一个CellModel（VSDemoCollectionItemCellModel），继承于VSMVVMCollectionViewCellModel，负责管理元素Cell，在方法cellClass中，返回关联的Cell（VSDemoCollectionItemCell）
-4、新建一个Cell（VSDemoCollectionItemCell），继承于VSMVVMCollectionViewCell，需要重写VSMVVMCollectionViewCell中的方法，返回该cell的高度。
-5、页面很复杂，需要重新步骤3和4，不断的拆分这个复杂的Cell.
-6、最后，所有的cellModel都交由第2步的控制器的ViewModel整合加载。
+1. 新建一个控制器VSDemoCollectionViewController，继承于VSMVVMCollectionViewController
+2. 新建一个该控制器的ViewModel（VSDemoCollectionViewModel），继承于VSMVVMCollectionViewModel，负责管理所有的CellViewModel
+3. 新建一个CellModel（VSDemoCollectionItemCellModel），继承于VSMVVMCollectionViewCellModel，负责管理元素Cell，在方法cellClass中，返回关联的Cell（VSDemoCollectionItemCell）
+4. 新建一个Cell（VSDemoCollectionItemCell），继承于VSMVVMCollectionViewCell，需要重写VSMVVMCollectionViewCell中的方法，返回该cell的高度。
+5. 页面很复杂，需要重新步骤3和4，不断的拆分这个复杂的Cell.
+6. 最后，所有的cellModel都交由第2步的控制器的ViewModel整合加载。
 
 # 说明
 可以直接查看博客介绍，有类图。
